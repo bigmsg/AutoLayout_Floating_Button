@@ -14,6 +14,12 @@
 		33DD61C123617E43005DD015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33DD61BF23617E43005DD015 /* LaunchScreen.storyboard */; };
 		33DD61CC23617E43005DD015 /* Floating_ButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DD61CB23617E43005DD015 /* Floating_ButtonTests.swift */; };
 		33DD61D723617E43005DD015 /* Floating_ButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DD61D623617E43005DD015 /* Floating_ButtonUITests.swift */; };
+		33DD61E523617EB0005DD015 /* add_icon_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 33DD61E423617EB0005DD015 /* add_icon_green.png */; };
+		33DD61E923617EC0005DD015 /* food2.png in Resources */ = {isa = PBXBuildFile; fileRef = 33DD61E623617EC0005DD015 /* food2.png */; };
+		33DD61EA23617EC0005DD015 /* food3.png in Resources */ = {isa = PBXBuildFile; fileRef = 33DD61E723617EC0005DD015 /* food3.png */; };
+		33DD61EB23617EC0005DD015 /* food1.png in Resources */ = {isa = PBXBuildFile; fileRef = 33DD61E823617EC0005DD015 /* food1.png */; };
+		33DD61ED23617EC9005DD015 /* WeatherBG_Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 33DD61EC23617EC9005DD015 /* WeatherBG_Moon.png */; };
+		33DD61EF236185C4005DD015 /* FloatingButtonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DD61EE236185C4005DD015 /* FloatingButtonListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		33DD61D223617E43005DD015 /* Floating_ButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Floating_ButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DD61D623617E43005DD015 /* Floating_ButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floating_ButtonUITests.swift; sourceTree = "<group>"; };
 		33DD61D823617E43005DD015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33DD61E423617EB0005DD015 /* add_icon_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add_icon_green.png; path = "../../../Downloads/Lecture Image Resource/add_icon_green.png"; sourceTree = "<group>"; };
+		33DD61E623617EC0005DD015 /* food2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = food2.png; path = "../../../Downloads/Lecture Image Resource/food2.png"; sourceTree = "<group>"; };
+		33DD61E723617EC0005DD015 /* food3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = food3.png; path = "../../../Downloads/Lecture Image Resource/food3.png"; sourceTree = "<group>"; };
+		33DD61E823617EC0005DD015 /* food1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = food1.png; path = "../../../Downloads/Lecture Image Resource/food1.png"; sourceTree = "<group>"; };
+		33DD61EC23617EC9005DD015 /* WeatherBG_Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WeatherBG_Moon.png; path = "../../../Downloads/Lecture Image Resource/WeatherBG_Moon.png"; sourceTree = "<group>"; };
+		33DD61EE236185C4005DD015 /* FloatingButtonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButtonListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +112,14 @@
 				33DD61B623617E43005DD015 /* AppDelegate.swift */,
 				33DD61B823617E43005DD015 /* ViewController.swift */,
 				33DD61BA23617E43005DD015 /* Main.storyboard */,
+				33DD61EE236185C4005DD015 /* FloatingButtonListViewController.swift */,
 				33DD61BD23617E43005DD015 /* Assets.xcassets */,
 				33DD61BF23617E43005DD015 /* LaunchScreen.storyboard */,
+				33DD61E823617EC0005DD015 /* food1.png */,
+				33DD61E623617EC0005DD015 /* food2.png */,
+				33DD61E723617EC0005DD015 /* food3.png */,
+				33DD61E423617EB0005DD015 /* add_icon_green.png */,
+				33DD61EC23617EC9005DD015 /* WeatherBG_Moon.png */,
 				33DD61C223617E43005DD015 /* Info.plist */,
 			);
 			path = Floating_Button;
@@ -230,7 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				33DD61C123617E43005DD015 /* LaunchScreen.storyboard in Resources */,
+				33DD61EB23617EC0005DD015 /* food1.png in Resources */,
+				33DD61E923617EC0005DD015 /* food2.png in Resources */,
 				33DD61BE23617E43005DD015 /* Assets.xcassets in Resources */,
+				33DD61EA23617EC0005DD015 /* food3.png in Resources */,
+				33DD61E523617EB0005DD015 /* add_icon_green.png in Resources */,
+				33DD61ED23617EC9005DD015 /* WeatherBG_Moon.png in Resources */,
 				33DD61BC23617E43005DD015 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33DD61EF236185C4005DD015 /* FloatingButtonListViewController.swift in Sources */,
 				33DD61B923617E43005DD015 /* ViewController.swift in Sources */,
 				33DD61B723617E43005DD015 /* AppDelegate.swift in Sources */,
 			);
