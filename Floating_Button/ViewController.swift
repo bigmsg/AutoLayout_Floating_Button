@@ -10,6 +10,7 @@
     hello pull 테스트 하기
  작성자: imac
  작성자: macbook 10:34
+ imac(10:36): 커밋&push 
  */
 
 import UIKit
