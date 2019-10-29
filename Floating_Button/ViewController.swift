@@ -10,33 +10,7 @@
     hello pull 테스트 하기
  작성자: imac
  작성자: macbook 10:34
- imac(10:36): 커밋&push
- macbook(10:39): commit & push
- macbook(10:48) commit & push
- imac(10:50)
- macbook(10:56)
- imac(11:07)
- imac(11:12)
- macbook(11:12)
- imac(11:13)
- macbook(11:14)
- macbook(11:17)
- 
- imac(11:18)
- imac(11:20)
- macbook(11:23)
- huneouno
- nhoenuoeu
- 
- hello macbook
- 
- 
- ueoauao
- 
- imc(11:36)
- imac(11:42)
- 
- imac(11:44)
+
  */
 
 import UIKit
