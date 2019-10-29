@@ -12,6 +12,7 @@
  작성자: macbook 10:34
  imac(10:36): 커밋&push
  macbook(10:39): commit & push
+ macbook(10:48) commit & push
  */
 
 import UIKit
