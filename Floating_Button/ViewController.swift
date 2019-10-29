@@ -9,6 +9,7 @@
 /*
     hello pull 테스트 하기
  작성자: imac
+ imac(10:36): 커밋&push 
  */
 
 import UIKit
